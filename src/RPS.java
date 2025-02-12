@@ -70,6 +70,7 @@ public class RPS {
             //Check if they would like to play again (Y)
             System.out.print("Do you want to play again? (Y):");
             continuePlaying = in.nextLine();
+            //Leave if any input other than Y or y
         }while(continuePlaying.equalsIgnoreCase("Y"));
     }
 }
